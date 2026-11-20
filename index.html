@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Dollar – One Humanity</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #eef3f8;
+  text-align: center;
+  padding: 25px;
+  color: #183047;
+}
+main {
+  max-width: 650px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+}
+h1 { color: #1769aa; }
+.wallet {
+  overflow-wrap: anywhere;
+  background: #edf3f8;
+  padding: 15px;
+  border-radius: 10px;
+}
+button {
+  background: #1769aa;
+  color: white;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>🌍 ONE DOLLAR – ONE HUMANITY</h1>
+<h3>A Small Gesture Can Make a Big Difference</h3>
+
+<p>Hello everyone,</p>
+
+<p>
+I am currently facing difficult financial circumstances
+and kindly asking for voluntary support.
+Even a small contribution can make a difference.
+There is absolutely no obligation to donate.
+</p>
+
+<h2>Suggested contribution: $1</h2>
+
+<h3>Donation Wallet</h3>
+<p>Network: BNB Smart Chain (BEP-20)</p>
+
+<div class="wallet" id="wallet">
+0xb5e9cf2f49e41256219036dc165b61910aaa0369
+</div>
+
+<br>
+<button onclick="navigator.clipboard.writeText(document.getElementById('wallet').innerText)">
+Copy Wallet Address
+</button>
+
+<p>Thank you for your kindness and generosity.</p>
+</main>
+</body>
+</html>
